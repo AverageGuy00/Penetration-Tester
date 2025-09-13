@@ -1,0 +1,24 @@
+# Ignore Obsidian configs
+.obsidian/
+
+# Logs
+*.log
+
+# Databases
+*.sqlite
+*.db
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Pentest output (optional, adjust as needed)
+output/
+captures/
+*.pcap
+*.key
+*.pem
