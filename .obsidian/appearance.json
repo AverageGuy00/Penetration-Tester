@@ -1,6 +1,7 @@
 {
   "textFontFamily": "JetBrainsMonoNL Nerd Font",
-  "cssTheme": "Pomme Notes",
+  "cssTheme": "Nordic",
   "accentColor": "",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "monospaceFontFamily": "JetBrainsMonoNL Nerd Font Mono"
 }
