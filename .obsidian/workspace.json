@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/Networking/Mac Addresses.md",
+                "file": "Penetration_Tester/Networking/Wireless Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mac Addresses"
+              "title": "Wireless Networks"
             }
           }
         ]
@@ -157,8 +157,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -177,24 +177,27 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "bases:Create new base": false
     }
   },
   "active": "06173e68a8f8a747",
   "lastOpenFiles": [
     "Penetration_Tester/Networking/Subnetting.md",
+    "Penetration_Tester/Networking/Wireless Networks.md",
+    "Penetration_Tester/Networking/IPv4 Addresses.md",
+    "Penetration_Tester/Networking/IPv6 Addresses.md",
     "Penetration_Tester/Networking/Mac Addresses.md",
-    "Penetration_Tester/Networking/IP Addresses.md",
+    "Penetration_Tester/Networking/Network Models.md",
+    "Penetration_Tester/Networking/Network Topologies.md",
+    "Penetration_Tester/Networking/Network Types.md",
+    "Penetration_Tester/Networking/Networking Terminilogy.md",
+    "Penetration_Tester/Networking/Proxies.md",
+    "Penetration_Tester/Networking/Common Protocols.md",
     "Untitled.canvas",
     "Penetration_Tester/Linux_Fundamentals/Shell.md",
     "Penetration_Tester/Linux_Fundamentals/Network Configuration.md",
     "Penetration_Tester/Linux_Fundamentals/Linux Structure.md",
     "Penetration_Tester/Linux_Fundamentals/Firewall.md",
-    "Penetration_Tester/Networking/Network Models.md",
-    "Penetration_Tester/Networking/Network Topologies.md",
-    "Penetration_Tester/Networking/Proxies.md",
-    "Penetration_Tester/Networking/Network Types.md",
     "Penetration_Tester/Networking/Network_Map.png",
     "Penetration_Tester/Linux_Fundamentals/File Systems.md",
     "Penetration_Tester/Linux_Fundamentals/System Logs.md",
@@ -209,11 +212,7 @@
     "Penetration_Tester/Windows_Fundamentals/Sessions.md",
     "Penetration_Tester/Windows_Fundamentals/Windows structure.md",
     "Penetration_Tester/Windows_Fundamentals",
-    "Penetration_Tester/Linux_Fundamentals/User Management.md",
-    "Penetration_Tester/Linux_Fundamentals/File Permissions.md",
     "Penetration_Tester/Linux_Fundamentals",
-    "Penetration_Tester",
-    "TEST.md",
-    "Welcome.md"
+    "Penetration_Tester"
   ]
 }
