@@ -19,7 +19,7 @@ A LAN (Local Area Network) is a network within a limited area, usually assigning
 
 # VPN
 
-A **Virtual Private Network (VPN)** makes your device behave as if it’s plugged into a different network — secure tunnel, different network feeling, same coffee.
+A **Virtual Private Network (VPN)** makes your device behave as if it’s plugged into a different network — secure tunnel, different network feeling, same coffee. VPN typically uses the ports `TCP/1723` for [Point-to-Point Tunneling Protocol](https://www.lifewire.com/pptp-point-to-point-tunneling-protocol-818182) `PPTP` VPN connections and `UDP/500` for [IKEv1](https://www.cisco.com/c/en/us/support/docs/security-vpn/ipsec-negotiation-ike-protocols/217432-understand-ipsec-ikev1-protocol.html) and [IKEv2](https://nordvpn.com/blog/ikev2ipsec/) VPN connections.
 
 ## **Site-to-Site VPN**  
 
@@ -32,6 +32,13 @@ A user’s device creates a virtual interface (e.g., a TUN adapter) that places 
 ## **SSL VPN**  
 
 A VPN delivered through a web browser that streams apps or full desktop sessions to the client (example: browser-based workstations like Pwnbox).
+
+| **Requirement**  |                                                                             **Description**                                                                             |
+| :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   `VPN Client`   |    This is installed on the remote device and is used to establish and maintain a VPN connection with the VPN server. For example, this could be an OpenVPN client.     |
+|   `VPN Server`   |  This is a computer or network device responsible for accepting VPN connections from VPN clients and routing traffic between the VPN clients and the private network.   |
+|   `Encryption`   | VPN connections are encrypted using a variety of encryption algorithms and protocols, such as AES and IPsec, to secure the connection and protect the transmitted data. |
+| `Authentication` |      The VPN server and client must authenticate each other using a shared secret, certificate, or another authentication method to establish a secure connection.      |
 
 ---
 

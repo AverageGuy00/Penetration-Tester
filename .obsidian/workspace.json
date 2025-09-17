@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/Networking/Wireless Networks.md",
+                "file": "Penetration_Tester/Web_Applications/Front_Back_end.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wireless Networks"
+              "title": "Front_Back_end"
             }
           }
         ]
@@ -171,6 +171,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -182,35 +183,36 @@
   },
   "active": "06173e68a8f8a747",
   "lastOpenFiles": [
-    "Penetration_Tester/Networking/Subnetting.md",
-    "Penetration_Tester/Networking/Wireless Networks.md",
+    "Penetration_Tester/Web_Applications/Web Application Layout.md",
+    "Penetration_Tester/Web_Applications/Front_Back_end.md",
     "Penetration_Tester/Networking/IPv4 Addresses.md",
+    "Penetration_Tester/Web_Applications",
+    "Penetration_Tester/Untitled.md",
     "Penetration_Tester/Networking/IPv6 Addresses.md",
-    "Penetration_Tester/Networking/Mac Addresses.md",
-    "Penetration_Tester/Networking/Network Models.md",
-    "Penetration_Tester/Networking/Network Topologies.md",
-    "Penetration_Tester/Networking/Network Types.md",
-    "Penetration_Tester/Networking/Networking Terminilogy.md",
-    "Penetration_Tester/Networking/Proxies.md",
+    "Penetration_Tester/Networking/Key Exchange Mechanisms.md",
+    "Penetration_Tester/Networking/Cryptography.md",
+    "Penetration_Tester/Networking/TCP UDP Connections.md",
+    "Penetration_Tester/Networking/Authentication Protocols.md",
+    "Penetration_Tester/Networking/Vendor Specific Information.md",
+    "Penetration_Tester/Networking/Wireless Networks.md",
     "Penetration_Tester/Networking/Common Protocols.md",
+    "Penetration_Tester/Networking/Network Types.md",
+    "Penetration_Tester/Networking/Network Models.md",
+    "Penetration_Tester/Linux_Fundamentals/Linux Structure.md",
+    "Penetration_Tester/Linux_Fundamentals/Firewall.md",
+    "Penetration_Tester/Linux_Fundamentals/File Systems.md",
+    "Penetration_Tester/Networking/Mac Addresses.md",
+    "Penetration_Tester/Networking/Subnetting.md",
+    "Penetration_Tester/Networking/Networking Terminilogy.md",
+    "Penetration_Tester/Networking/Network Topologies.md",
+    "Penetration_Tester/Networking/Proxies.md",
     "Untitled.canvas",
     "Penetration_Tester/Linux_Fundamentals/Shell.md",
     "Penetration_Tester/Linux_Fundamentals/Network Configuration.md",
-    "Penetration_Tester/Linux_Fundamentals/Linux Structure.md",
-    "Penetration_Tester/Linux_Fundamentals/Firewall.md",
     "Penetration_Tester/Networking/Network_Map.png",
-    "Penetration_Tester/Linux_Fundamentals/File Systems.md",
     "Penetration_Tester/Linux_Fundamentals/System Logs.md",
     "Penetration_Tester/Windows_Fundamentals/Interacting with Windows.md",
-    "881E776B-CC12-416D-A1F2-43D6F6CB20F0.md",
     "Penetration_Tester/Networking",
-    "Penetration_Tester/Windows_Fundamentals/Windows Security.md",
-    "Penetration_Tester/Windows_Fundamentals/File Systems.md",
-    "Penetration_Tester/Windows_Fundamentals/Services & Processes.md",
-    "Penetration_Tester/Windows_Fundamentals/More Windows usage.md",
-    "Penetration_Tester/Windows_Fundamentals/Powershell.md",
-    "Penetration_Tester/Windows_Fundamentals/Sessions.md",
-    "Penetration_Tester/Windows_Fundamentals/Windows structure.md",
     "Penetration_Tester/Windows_Fundamentals",
     "Penetration_Tester/Linux_Fundamentals",
     "Penetration_Tester"
