@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/Web_Applications/Front_Back_end.md",
+                "file": "Penetration_Tester/Web_Applications/Web Application Layout.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Front_Back_end"
+              "title": "Web Application Layout"
             }
           }
         ]
@@ -183,8 +183,8 @@
   },
   "active": "06173e68a8f8a747",
   "lastOpenFiles": [
-    "Penetration_Tester/Web_Applications/Web Application Layout.md",
     "Penetration_Tester/Web_Applications/Front_Back_end.md",
+    "Penetration_Tester/Web_Applications/Web Application Layout.md",
     "Penetration_Tester/Networking/IPv4 Addresses.md",
     "Penetration_Tester/Web_Applications",
     "Penetration_Tester/Untitled.md",
