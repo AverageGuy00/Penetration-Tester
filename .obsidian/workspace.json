@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/Web Requests/HTTP Fundamentals.md",
+                "file": "Penetration_Tester/Web Requests/HTTP Requests and Responses.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP Fundamentals"
+              "title": "HTTP Requests and Responses"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "curl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 321.5
   },
   "right": {
     "id": "073d291448c1cf56",
@@ -182,34 +182,38 @@
   },
   "active": "06173e68a8f8a747",
   "lastOpenFiles": [
-    "Penetration_Tester/Networking/Network Topologies.md",
-    "Penetration_Tester/Web Requests/HTTP Fundamentals.md",
+    "images/Pasted image 20250920021637.png",
     "Penetration_Tester/Networking/Key Exchange Mechanisms.md",
-    "Penetration_Tester/Networking/Mac Addresses.md",
-    "Penetration_Tester/Networking/IPv6 Addresses.md",
+    "Penetration_Tester/Web Requests/HTTP Requests and Responses.md",
+    "Penetration_Tester/Web Requests/HTTP Fundamentals.md",
+    "images/Pasted image 20250920014557.png",
+    "Penetration_Tester/Linux_Fundamentals/System Logs.md",
+    "Penetration_Tester/Linux_Fundamentals/Shell.md",
+    "images/Pasted image 20250920001403.png",
+    "images",
+    "Penetration_Tester/Untitled",
     "Penetration_Tester/Web_Applications/Public Vulnerabilities.md",
-    "Penetration_Tester/Web Requests",
-    "Penetration_Tester/Web.md",
-    "Penetration_Tester/Web_Applications/Common Web Vulnerabilities.md",
-    "Penetration_Tester/Web_Applications/Development Frameworks & APIs.md",
-    "Penetration_Tester/Web_Applications/Databases.md",
-    "Penetration_Tester/Web_Applications/Web Servers.md",
-    "Penetration_Tester/Web_Applications/Front_Back_end.md",
-    "Penetration_Tester/Web_Applications/Cross-Site Scripting(XSS).md",
-    "Penetration_Tester/Web_Applications/Web Application Layout.md",
+    "Penetration_Tester/Networking/Mac Addresses.md",
     "Penetration_Tester/Networking/IPv4 Addresses.md",
-    "Penetration_Tester/Web_Applications",
+    "Penetration_Tester/Networking/IPv6 Addresses.md",
+    "Penetration_Tester/Linux_Fundamentals/Linux Structure.md",
     "Penetration_Tester/Networking/Cryptography.md",
+    "Penetration_Tester/Networking/Network Models.md",
+    "Penetration_Tester/Networking/Networking Terminilogy.md",
+    "Penetration_Tester/Networking/Network Types.md",
+    "Penetration_Tester/Networking/Subnetting.md",
     "Penetration_Tester/Networking/TCP UDP Connections.md",
-    "Penetration_Tester/Networking/Authentication Protocols.md",
     "Penetration_Tester/Networking/Vendor Specific Information.md",
     "Penetration_Tester/Networking/Wireless Networks.md",
+    "Penetration_Tester/Networking/Proxies.md",
+    "Penetration_Tester/Networking/Network Topologies.md",
     "Penetration_Tester/Networking/Common Protocols.md",
-    "Penetration_Tester/Networking/Network Types.md",
-    "Penetration_Tester/Networking/Network Models.md",
-    "Penetration_Tester/Linux_Fundamentals/Linux Structure.md",
-    "Penetration_Tester/Linux_Fundamentals/Firewall.md",
-    "Penetration_Tester/Linux_Fundamentals/File Systems.md",
+    "Penetration_Tester/Web_Applications/Web Servers.md",
+    "Penetration_Tester/Web_Applications/Common Web Vulnerabilities.md",
+    "Penetration_Tester/Web Requests",
+    "Penetration_Tester/Web.md",
+    "Penetration_Tester/Web_Applications/Development Frameworks & APIs.md",
+    "Penetration_Tester/Web_Applications",
     "Untitled.canvas",
     "Penetration_Tester/Networking/Network_Map.png",
     "Penetration_Tester/Networking",

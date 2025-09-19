@@ -1,3 +1,7 @@
+---
+noteID: 78652c55-3e76-47b8-9f90-5193f9d17359
+custom-width: .nan
+---
 IPv6 is the **successor to IPv4**, designed to solve the problem of IPv4 address exhaustion. It uses **128-bit addresses** (written in hexadecimal, separated by colons) instead of IPv4’s 32-bit addresses. This provides a vastly larger address space and supports modern networking needs.
 
 An **IPv6 address** is **128 bits (16 bytes)** long, written as **8 blocks of 16 bits** (4 hex digits each) separated by colons `:`.

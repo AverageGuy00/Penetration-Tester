@@ -1,3 +1,6 @@
+---
+noteID: afee3f75-718f-479f-b121-7d6170bc9cd3
+---
 A network topology is the arrangement and connection of devices in a network, either physically or logically.
 
 ==***Physical topology***== describes the actual layout of the transmission medium (cabling plan, node positions, and connections).

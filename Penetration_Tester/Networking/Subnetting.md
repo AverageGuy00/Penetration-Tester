@@ -1,3 +1,7 @@
+---
+noteID: 6ce064f8-e2f0-43a7-ad1c-af87c49e73c5
+custom-width: .nan
+---
 
 Subnetting is the process of **dividing a larger IP network into smaller, more manageable subnetworks** (subnets). It separates the IP address into a **network portion** and a **host portion**, allowing efficient use of IP addresses, improved network performance, and better organization of devices within a network.
 

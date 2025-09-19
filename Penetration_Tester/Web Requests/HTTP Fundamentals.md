@@ -14,3 +14,15 @@ Here is what each component stands for:
 | `Query String` |    `?login=true`     | The query string starts with a question mark (`?`), and consists of a parameter (e.g. `login`) and a value (e.g. `true`). Multiple parameters can be separated by an ampersand (`&`). |
 |  `Fragments`   |      `#status`       |                   Fragments are processed by the browsers on the client-side to locate sections within the primary resource (e.g. a header or section on the page).                   |
 
+# HTTP Flow 
+
+![[Pasted image 20250920001403.png]]
+
+The diagram above presents the anatomy of an HTTP request at a very high level. The first time a user enters the URL (`inlanefreight.com`) into the browser, it sends a request to a DNS (Domain Name System) server to resolve the domain and get its IP. The DNS server looks up the IP address for `inlanefreight.com` and returns it. All domain names need to be resolved this way, as a server can't communicate without an IP address.
+
+---
+
+# HTTPS Flow
+
+![[Pasted image 20250920014557.png]]
+

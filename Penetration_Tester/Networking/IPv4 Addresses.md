@@ -1,3 +1,6 @@
+---
+noteID: 95c19cf1-00c1-45c5-b2aa-6fe6d286aae5
+---
 Each host in a network is identified by a **Media Access Control (MAC) address**, which allows devices to exchange data within the same local network. However, a MAC address alone isn’t enough when communicating with a host on a different network. For connections across networks (like the Internet), devices rely on **IP addressing**. An **IPv4** or **IPv6 address** contains two parts: the **network portion** (which identifies the network) and the **host portion** (which identifies the specific device within that network).
 
 It does not matter whether the network is small (like a home computer network) or as large as the Internet — the **IP address** ensures that data is delivered to the correct receiver.

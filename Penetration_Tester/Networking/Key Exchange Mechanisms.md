@@ -1,3 +1,7 @@
+---
+noteID: 0e7f5d73-4390-4fff-a545-9a9ec7edc15f
+custom-width: .nan
+---
 **Key exchange methods** are used to securely exchange cryptographic keys between two parties. This is a critical part of many cryptographic protocols since the secrecy of the keys ensures the security of the encryption.
 
 These methods typically allow two parties to agree on a **shared secret key** over an insecure channel, using mathematical operations or cryptographic functions.

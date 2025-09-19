@@ -1,3 +1,7 @@
+---
+noteID: c36c5cb2-3d38-4657-90a0-64bff98e374c
+custom-width: .nan
+---
 TCP and UDP are protocols for transmitting data over the Internet. TCP is connection-oriented and reliable, ensuring all data arrives correctly—commonly used for web pages and emails. UDP is connectionless and faster but less reliable, making it ideal for streaming and gaming where speed matters more than accuracy.
 
 # IP Packet

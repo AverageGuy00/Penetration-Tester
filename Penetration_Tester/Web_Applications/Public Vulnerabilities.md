@@ -1,4 +1,4 @@
-The most critical back-end vulnerabilities are those exploitable externally, allowing attackers to control the server without local access. These usually result from coding mistakes and range from simple to highly complex vulnerabilities.
+ The most critical back-end vulnerabilities are those exploitable externally, allowing attackers to control the server without local access. These usually result from coding mistakes and range from simple to highly complex vulnerabilities.
 
 # **Public CVE**
 
