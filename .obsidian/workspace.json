@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/Javascript_Deobfuscation/Obfuscation.md",
+                "file": "Penetration_Tester/Active_Directory/Terminologies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obfuscation"
+              "title": "Terminologies"
             }
           }
         ]
@@ -182,8 +182,13 @@
   },
   "active": "06173e68a8f8a747",
   "lastOpenFiles": [
-    "Penetration_Tester/Web Requests/CRUD API.md",
+    "Penetration_Tester/Active_Directory/Terminologies.md",
+    "Penetration_Tester/Active_Directory/Structure.md",
+    "Penetration_Tester/Javascript_Deobfuscation/Deobfuscation.md",
+    "Penetration_Tester/Active_Directory",
+    "Penetration_Tester/Javascript_Deobfuscation/Untitled.md",
     "Penetration_Tester/Javascript_Deobfuscation/Obfuscation.md",
+    "Penetration_Tester/Web Requests/CRUD API.md",
     "Penetration_Tester/Javascript_Deobfuscation",
     "Penetration_Tester/Networking/IPv4 Addresses.md",
     "Penetration_Tester/Web Requests/HTTP Methods and Codes.md",
@@ -212,10 +217,6 @@
     "Penetration_Tester/Networking/TCP UDP Connections.md",
     "Penetration_Tester/Networking/Vendor Specific Information.md",
     "Penetration_Tester/Networking/Wireless Networks.md",
-    "Penetration_Tester/Networking/Proxies.md",
-    "Penetration_Tester/Networking/Network Topologies.md",
-    "Penetration_Tester/Networking/Common Protocols.md",
-    "Penetration_Tester/Web_Applications/Web Servers.md",
     "Penetration_Tester/Web Requests",
     "Penetration_Tester/Web_Applications",
     "Untitled.canvas",
