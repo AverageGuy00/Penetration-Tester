@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/Active_Directory/Terminologies.md",
+                "file": "Penetration_Tester/Windows_Fundamentals/Interacting with Windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Terminologies"
+              "title": "Interacting with Windows"
             }
           }
         ]
