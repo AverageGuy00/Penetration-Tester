@@ -14,3 +14,10 @@ Once the **server** receives the request, it processes it and sends back an **HT
 |  `Path`   | `/users/login.html` | The path to the resource being accessed. This field can also be suffixed with a query string (e.g. `?username=user`). |
 | `Version` |     `HTTP/1.1`      |                             The third and final field is used to denote the HTTP version.                             |
 
+# HTTP Response
+
+![[Pasted image 20250920101128.png]]
+
+The first line of an HTTP response contains two fields separated by spaces. The first being the `HTTP version` (e.g. `HTTP/1.1`), and the second denotes the `HTTP response code` (e.g. `200 OK`).
+
+Response codes are used to determine the request's status, as will be discussed in a later section. After the first line, the response lists its headers, similar to an HTTP request. Both request and response headers are discussed in the next section.
