@@ -3,5 +3,6 @@
   "cssTheme": "Hackthebox",
   "accentColor": "",
   "theme": "obsidian",
-  "monospaceFontFamily": "JetBrainsMonoNL Nerd Font Mono"
+  "monospaceFontFamily": "JetBrainsMonoNL Nerd Font Mono",
+  "baseFontSize": 17
 }

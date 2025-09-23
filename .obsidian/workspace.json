@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/Active_Directory/Kerberos,DNS,LDAP,MSRPC.md",
+                "file": "Penetration_Tester/Active_Directory/NTLM Authentication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kerberos,DNS,LDAP,MSRPC"
+              "title": "NTLM Authentication"
             }
           }
         ]
@@ -182,10 +182,12 @@
   },
   "active": "06173e68a8f8a747",
   "lastOpenFiles": [
+    "Penetration_Tester/Active_Directory/Terminologies.md",
+    "Penetration_Tester/Active_Directory/NTLM Authentication.md",
+    "Penetration_Tester/Active_Directory/Kerberos,DNS,LDAP,MSRPC.md",
     "images/Pasted image 20250923175510.png",
     "images/Pasted image 20250923134237.png",
     "Penetration_Tester/Active_Directory/Active Directory Structure.md",
-    "Penetration_Tester/Active_Directory/Kerberos,DNS,LDAP,MSRPC.md",
     "Penetration_Tester/Linux_Fundamentals/Linux Structure.md",
     "Penetration_Tester/Linux_Fundamentals/File Systems.md",
     "Penetration_Tester/Linux_Fundamentals/Firewall.md",
@@ -195,7 +197,6 @@
     "Penetration_Tester/Javascript_Deobfuscation/Deobfuscation.md",
     "Penetration_Tester/Javascript_Deobfuscation/Obfuscation.md",
     "Penetration_Tester/Active_Directory/Active Directory Functionalities.md",
-    "Penetration_Tester/Active_Directory/Terminologies.md",
     "Penetration_Tester/Active_Directory/Active Directory Objects.md",
     "Penetration_Tester/Windows_Fundamentals/Interacting with Windows.md",
     "Penetration_Tester/Active_Directory",
