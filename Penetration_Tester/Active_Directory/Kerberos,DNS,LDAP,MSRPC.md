@@ -1,4 +1,4 @@
-# Kerberos 
+q# Kerberos 
 
 `Kerberos` has been the default authentication protocol for domain accounts since Windows 2000, allowing interoperability with other systems using the same standard. When a user logs in, `Kerberos` performs `mutual authentication`, letting both the user and server verify identities. It uses `tickets` instead of sending `passwords` over the network, making it a stateless authentication method. Domain Controllers in Active Directory run a `Key Distribution Center (KDC)` that issues tickets. During login, the client requests a ticket from the `KDC`, encrypting the request with the user’s `password`. If the `KDC` can decrypt it, it issues a `Ticket Granting Ticket (TGT)`. The `TGT` is then used to request a `Ticket Granting Service (TGS)` ticket for a specific `service`, encrypted with the service's `password hash`. The client presents the `TGS` to access the service, which validates it and grants access. This process separates `user credentials` from service requests, keeping passwords off the network. The `KDC` does not track transactions; the validity of the `TGS` depends on a valid `TGT`, which proves the user’s identity.
 
