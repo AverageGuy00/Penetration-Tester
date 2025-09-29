@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/Active_Directory/Kerberos,DNS,LDAP,MSRPC.md",
+                "file": "Penetration_Tester/Active_Directory/User and Machine accounts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kerberos,DNS,LDAP,MSRPC"
+              "title": "User and Machine accounts"
             }
           }
         ]
@@ -182,6 +182,9 @@
   },
   "active": "06173e68a8f8a747",
   "lastOpenFiles": [
+    "Penetration_Tester/Active_Directory/NTLM Authentication.md",
+    "Penetration_Tester/Active_Directory/User and Machine accounts.md",
+    "Penetration_Tester/Active_Directory/Kerberos,DNS,LDAP,MSRPC.md",
     "Penetration_Tester/Networking/Common Protocols.md",
     "Penetration_Tester/Networking/Vendor Specific Information.md",
     "Penetration_Tester/Networking/Wireless Networks.md",
@@ -205,9 +208,6 @@
     "Penetration_Tester/Web_Applications/Public Vulnerabilities.md",
     "Penetration_Tester/Web_Applications/Front_Back_end.md",
     "Penetration_Tester/Javascript_Deobfuscation/Obfuscation.md",
-    "Penetration_Tester/Javascript_Deobfuscation/Deobfuscation.md",
-    "Penetration_Tester/Active_Directory/Kerberos,DNS,LDAP,MSRPC.md",
-    "Penetration_Tester/Windows_Fundamentals/Interacting with Windows.md",
     "images/Pasted image 20250923175510.png",
     "images/Pasted image 20250923134237.png",
     "Penetration_Tester/Active_Directory",
