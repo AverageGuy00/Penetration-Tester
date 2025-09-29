@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/Active_Directory/User and Machine accounts.md",
+                "file": "Penetration_Tester/Active_Directory/Active Directory Rights and Privileges.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "User and Machine accounts"
+              "title": "Active Directory Rights and Privileges"
             }
           }
         ]
@@ -182,9 +182,15 @@
   },
   "active": "06173e68a8f8a747",
   "lastOpenFiles": [
-    "Penetration_Tester/Active_Directory/NTLM Authentication.md",
+    "Penetration_Tester/Active_Directory/Active Directory Rights and Privileges.md",
+    "Penetration_Tester/Active_Directory/Active Directory Groups.md",
+    "Penetration_Tester/Active_Directory/Active Directory Objects.md",
+    "Penetration_Tester/Active_Directory/Active Directory Structure.md",
+    "Penetration_Tester/Active_Directory/Active Directory Functionalities.md",
     "Penetration_Tester/Active_Directory/User and Machine accounts.md",
+    "Penetration_Tester/Active_Directory/NTLM Authentication.md",
     "Penetration_Tester/Active_Directory/Kerberos,DNS,LDAP,MSRPC.md",
+    "images/Pasted image 20250929232325.png",
     "Penetration_Tester/Networking/Common Protocols.md",
     "Penetration_Tester/Networking/Vendor Specific Information.md",
     "Penetration_Tester/Networking/Wireless Networks.md",
@@ -203,11 +209,6 @@
     "Penetration_Tester/Web Requests/CRUD API.md",
     "Penetration_Tester/Web_Applications/Web Servers.md",
     "Penetration_Tester/Web_Applications/Cross-Site Scripting(XSS).md",
-    "Penetration_Tester/Web_Applications/Development Frameworks & APIs.md",
-    "Penetration_Tester/Web_Applications/Web Application Layout.md",
-    "Penetration_Tester/Web_Applications/Public Vulnerabilities.md",
-    "Penetration_Tester/Web_Applications/Front_Back_end.md",
-    "Penetration_Tester/Javascript_Deobfuscation/Obfuscation.md",
     "images/Pasted image 20250923175510.png",
     "images/Pasted image 20250923134237.png",
     "Penetration_Tester/Active_Directory",
