@@ -28,7 +28,7 @@ Local accounts are stored on `local systems` (a standalone server or workstation
 
 `Domain users` differ from `local users` in that their rights are granted by the `domain`. This allows them to access resources such as file servers, printers, intranet hosts, and other objects, based on permissions assigned to their `user account` or their `group memberships`.
 
-Unlike local accounts, a `domain user` can log in to **any host in the domain**.
+Unlike local accounts, a `domain user` can log in to any host in the domain.
 
 A key account to remember in `Active Directory` is the `KRBTGT` account. This is a built-in service account for the **Key Distribution Service** that handles authentication and access to domain resources.
 
