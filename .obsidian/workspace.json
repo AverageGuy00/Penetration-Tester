@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/Active_Directory/Examining Group Policy.md",
+                "file": "Penetration_Tester/Getting_Started/Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Examining Group Policy"
+              "title": "Privilege Escalation"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "curl",
+                "query": "tag:#User",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,15 +181,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "06173e68a8f8a747",
+  "active": "bb0c3d369a141c9f",
   "lastOpenFiles": [
+    "Penetration_Tester/Getting_Started/Types of Shells.md",
+    "Penetration_Tester/Getting_Started/Privilege Escalation.md",
+    "Penetration_Tester/Getting_Started/Web Enumeration.md",
+    "images/Pasted image 20251002103609.png",
+    "Penetration_Tester/Getting_Started/Infosec.md",
+    "Penetration_Tester/Active_Directory/Examining Group Policy.md",
+    "Penetration_Tester/Getting_Started",
+    "Penetration_Tester/Untitled.md",
     "images/Pasted image 20250930205123.png",
     "images/Pasted image 20250930204925.png",
     "Penetration_Tester/Active_Directory/Active Directory Objects.md",
     "Penetration_Tester/Active_Directory/Active Directory Groups.md",
     "Penetration_Tester/Active_Directory/Active Directory Functionalities.md",
     "Penetration_Tester/Active_Directory/Kerberos,DNS,LDAP,MSRPC.md",
-    "Penetration_Tester/Active_Directory/Examining Group Policy.md",
     "Penetration_Tester/Active_Directory/Active Directory Terminologies.md",
     "Penetration_Tester/Active_Directory/Active Directory Structure.md",
     "Penetration_Tester/Active_Directory/Active Directory Rights and Privileges.md",
@@ -203,8 +211,6 @@
     "images/Pasted image 20250930162407.png",
     "images/Pasted image 20250930161038.png",
     "images/Pasted image 20250930131153.png",
-    "images/Pasted image 20250930131130.png",
-    "images/Pasted image 20250930123946.png",
     "Penetration_Tester/Networking/Common Protocols.md",
     "Penetration_Tester/Networking/Vendor Specific Information.md",
     "Penetration_Tester/Networking/Wireless Networks.md",
@@ -214,10 +220,6 @@
     "Penetration_Tester/Networking/Networking Terminilogy.md",
     "Penetration_Tester/Networking/Network Models.md",
     "Penetration_Tester/Networking/Network Topologies.md",
-    "Penetration_Tester/Networking/Network Types.md",
-    "Penetration_Tester/Networking/IPv6 Addresses.md",
-    "Penetration_Tester/Networking/Key Exchange Mechanisms.md",
-    "Penetration_Tester/Networking/Mac Addresses.md",
     "Penetration_Tester/Active_Directory",
     "Penetration_Tester/Javascript_Deobfuscation",
     "images",
