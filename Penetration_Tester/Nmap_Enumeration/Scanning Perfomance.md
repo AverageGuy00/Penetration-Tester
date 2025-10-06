@@ -90,3 +90,27 @@ Nmap done: 256 IP addresses (10 hosts up) scanned in 8.67 seconds
 - `-T 4` / `-T aggressive`
 - `-T 5` / `-T insane`
 
+#### Default Scan
+
+```bash
+sudo nmap 10.129.2.0/24 -F -oN tnet.default 
+
+<SNIP>
+Nmap done: 256 IP addresses (10 hosts up) scanned in 32.44 seconds
+```
+
+#### Insane Scan
+
+```bash
+sudo nmap 10.129.2.0/24 -F -oN tnet.T5 -T 5
+
+<SNIP>
+Nmap done: 256 IP addresses (10 hosts up) scanned in 18.07 seconds
+```
+
+| **Scanning Options** |                            **Description**                             |
+| :------------------: | :--------------------------------------------------------------------: |
+|   `10.129.2.0/24`    |                  Scans the specified target network.                   |
+|         `-F`         |                          Scans top 100 ports.                          |
+|    `-oN tnet.T5`     | Saves the results in normal formats, starting the specified file name. |
+|        `-T 5`        |                 Specifies the insane timing template.                  |
