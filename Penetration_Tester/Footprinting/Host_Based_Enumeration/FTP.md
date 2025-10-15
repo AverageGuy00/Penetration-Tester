@@ -102,16 +102,16 @@ For `vsFTPd`, this can be enabled by adding optional configuration lines that al
 
 ```bash
 #### Recursive Listing
-ls -R
+$ ls -R
 
 #### Download a File
-ls
+$ ls
 
 #### Download All Available Files
-wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136
+$ wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136
 
 #### Upload a File
-put testupload.txt
+$ put testupload.txt
 ```
 
 ---
@@ -202,4 +202,5 @@ NSOCK INFO [11.4660s] nsock_trace_handler_callback(): Callback: READ SUCCESS for
 NSOCK INFO [11.4660s] nsock_trace_handler_callback(): Callback: READ SUCCESS for EID 58 [10.129.14.136:21] (41 bytes): 220 Welcome to HTB-Academy FTP service...
 NSE: TCP 10.10.14.4:54228 < 10.129.14.136:21 | 220 Welcome to HTB-Academy FTP service.
 ```
+
 
