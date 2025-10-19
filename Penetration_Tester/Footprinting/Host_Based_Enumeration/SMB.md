@@ -1,4 +1,4 @@
-`Server Message Block` (`SMB`) is a client-server `protocol` that regulates access to files and entire directories and other `network resources` such as printers, routers, or interfaces released for the `network`.
+f`Server Message Block` (`SMB`) is a client-server `protocol` that regulates access to files and entire directories and other `network resources` such as printers, routers, or interfaces released for the `network`.
 
 The `SMB` `protocol` enables the `client` to communicate with other participants in the same `network` to access files or `services` shared with it on the `network`.
 
