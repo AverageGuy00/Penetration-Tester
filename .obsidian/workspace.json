@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/Footprinting/Windows Remote Management Protocols.md",
+                "file": "Penetration_Tester/00000_CORE/Information_Gathering/Fingerprinting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows Remote Management Protocols"
+              "title": "Fingerprinting"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 243.5
   },
   "right": {
     "id": "073d291448c1cf56",
@@ -183,16 +183,24 @@
   },
   "active": "767eadceb5a87b0a",
   "lastOpenFiles": [
+    "Penetration_Tester/Footprinting/Enumeration Principles.md",
+    "Penetration_Tester/00000_CORE/Information_Gathering/Fingerprinting.md",
+    "Penetration_Tester/Footprinting/Enumeration methodology.md",
+    "Penetration_Tester/00000_CORE/Information_Gathering/DNS/Vhosts.md",
+    "Penetration_Tester/00000_CORE/Information_Gathering/WHOIS.md",
+    "Penetration_Tester/00000_CORE/Information_Gathering/Web Recon.md",
+    "Penetration_Tester/00000_CORE/Information_Gathering/DNS/DNS.md",
+    "Penetration_Tester/00000_CORE/Information_Gathering/DNS/Digging DNS.md",
+    "Penetration_Tester/Footprinting/Host_Based_Enumeration/SNMP.md",
+    "Penetration_Tester/Footprinting/Windows Remote Management Protocols.md",
     "Penetration_Tester/Footprinting/Linux Remote Management Protocols.md",
     "Penetration_Tester/Footprinting/Host_Based_Enumeration/Oracle TNS.md",
     "Penetration_Tester/Footprinting/Host_Based_Enumeration/MSSQL.md",
     "Penetration_Tester/Footprinting/Host_Based_Enumeration/SMTP.md",
     "Penetration_Tester/Footprinting/Host_Based_Enumeration/NFS.md",
     "Penetration_Tester/Footprinting/Host_Based_Enumeration/DNS.md",
-    "Penetration_Tester/Footprinting/Windows Remote Management Protocols.md",
     "Penetration_Tester/Footprinting/Host_Based_Enumeration/IPMI.md",
     "Penetration_Tester/Footprinting/Host_Based_Enumeration/MySQL.md",
-    "Penetration_Tester/Footprinting/Host_Based_Enumeration/SNMP.md",
     "Penetration_Tester/Footprinting/Host_Based_Enumeration/IMAP_POP3.md",
     "images/{6FDB9C20-B30E-488D-A38C-C05292C6664B}.png",
     "Penetration_Tester/Footprinting/Host_Based_Enumeration/SMB.md",
@@ -207,20 +215,12 @@
     "images/{A95CAF1A-BF97-46AA-8A08-D5DB498D6AC2}.png",
     "images/{6F47C494-169A-4735-9120-5347BE12B5D5}.png",
     "Penetration_Tester/Footprinting/Infrastructure_Based_Enumeration/Domain information.md",
-    "Penetration_Tester/Footprinting/Enumeration methodology.md",
     "images/{B46A5A0D-3BB5-4AA5-B90E-535629057D6D}.png",
-    "Penetration_Tester/Footprinting/Enumeration Principles.md",
     "Penetration_Tester/Nmap_Enumeration/Firewall and IDS,ISP Evasion.md",
     "Penetration_Tester/Footprinting",
     "Penetration_Tester/Getting_Started/Types of Shells.md",
     "Penetration_Tester/Linux_Fundamentals/Network Configuration.md",
-    "Penetration_Tester/Penetration_Testing_Process/Pre-engagement.md",
-    "Penetration_Tester/Penetration_Testing_Process/Information Gathering.md",
     "Penetration_Tester/Penetration_Testing_Process",
-    "Penetration_Tester/Penetration Testing Process.md",
-    "Penetration_Tester/Nmap_Enumeration/IDP, IPS.md",
-    "Penetration_Tester/Web Requests/HTTP Methods and Codes.md",
-    "Penetration_Tester/Nmap_Enumeration/Scanning Perfomance.md",
     "images/Pasted image 20251005124934.png",
     "Penetration_Tester/Nmap_Enumeration",
     "images/Pasted image 20251003144329.png",
