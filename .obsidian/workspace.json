@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/00000_CORE/Metasploit/Plugins.md",
+                "file": "Penetration_Tester/00000_CORE/Metasploit/Meterpreter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plugins"
+              "title": "Meterpreter"
             }
           }
         ]
@@ -183,8 +183,10 @@
   },
   "active": "767eadceb5a87b0a",
   "lastOpenFiles": [
-    "Penetration_Tester/00000_CORE/Metasploit/Database.md",
+    "Penetration_Tester/00000_CORE/Metasploit/Sessions.md",
+    "Penetration_Tester/00000_CORE/Metasploit/Meterpreter.md",
     "Penetration_Tester/00000_CORE/Metasploit/Plugins.md",
+    "Penetration_Tester/00000_CORE/Metasploit/Database.md",
     "Penetration_Tester/00000_CORE/Metasploit/Introduction.md",
     "Penetration_Tester/00000_CORE/Metasploit/Encoders.md",
     "Penetration_Tester/00000_CORE/Metasploit/Payloads.md",
@@ -222,8 +224,6 @@
     "Penetration_Tester/00000_CORE/File_Transfers/Transfer files with code.md",
     "Penetration_Tester/Active_Directory/Examining Group Policy.md",
     "Penetration_Tester/Getting_Started/Privilege Escalation.md",
-    "Penetration_Tester/Active_Directory/NTLM Authentication.md",
-    "Penetration_Tester/Active_Directory/Active Directory Rights and Privileges.md",
     "Penetration_Tester/00000_CORE/File_Transfers",
     "Penetration_Tester/00000_CORE/File_Transfer",
     "Penetration_Tester/00000_CORE/Vulnerability_Assessment/OpenVAS",
