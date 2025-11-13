@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/00000_CORE/Remote_Password_attacks/Network Services.md",
+                "file": "Penetration_Tester/00000_CORE/Extracting_Passwords_from_windows/Attacking SAM,SYSTEM and Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Network Services"
+              "title": "Attacking SAM,SYSTEM and Security"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 305.5
   },
   "right": {
     "id": "073d291448c1cf56",
@@ -183,8 +183,14 @@
   },
   "active": "767eadceb5a87b0a",
   "lastOpenFiles": [
-    "Penetration_Tester/00000_CORE/Password_attacks/Cracking Protected Archives.md",
+    "Penetration_Tester/00000_CORE/Extracting_Passwords_from_windows/Windows Authentication Process.md",
+    "Penetration_Tester/00000_CORE/Extracting_Passwords_from_windows/Attacking SAM,SYSTEM and Security.md",
+    "images/{E91E5E07-A6F2-408C-87C4-0614603A06BE}.png",
+    "images/{DF0FF2BB-56AC-4E1D-8B47-463CCE62DF1F}.png",
+    "Penetration_Tester/00000_CORE/Remote_Password_attacks/Spraying, Stuffing, and Defaults.md",
+    "Penetration_Tester/00000_CORE/Extracting_Passwords_from_windows",
     "Penetration_Tester/00000_CORE/Remote_Password_attacks/Network Services.md",
+    "Penetration_Tester/00000_CORE/Password_attacks/Cracking Protected Archives.md",
     "Penetration_Tester/00000_CORE/Remote_Password_attacks",
     "Penetration_Tester/00000_CORE/Password_attacks/Cracking Protected Files.md",
     "Penetration_Tester/00000_CORE/Password_attacks/Writing Custom Wordlists and Rules.md",
@@ -212,23 +218,17 @@
     "Penetration_Tester/00000_CORE/Shell&Payloads/Web Shells/PHP Webshell.md",
     "images/{12EDAD9A-A33A-4DAE-A4C4-FD02549A85ED}.png",
     "images/{394804B3-952B-453B-B2D0-50DA5D1533F2}.png",
-    "Penetration_Tester/00000_CORE/Shell&Payloads/Web Shells/Laudanum, One Webshell to Rule Them All.md",
     "images/{A9D940E4-7E82-4C30-9830-709CC884B014}.png",
     "images/{626041D5-A071-4C0D-83EA-77864614979F}.png",
     "images/{B497A342-7877-4524-8409-A4DA8E5512FC}.png",
     "images/{41A15517-B654-4818-BF57-DAA5F31769C4}.png",
-    "Penetration_Tester/00000_CORE/Shell&Payloads/Linux/Spawning Interactive Shells.md",
     "Penetration_Tester/00000_CORE/Shell&Payloads/Web Shells",
     "Penetration_Tester/00000_CORE/Shell&Payloads/Linux",
-    "Penetration_Tester/00000_CORE/Shell&Payloads/Linux/Infiltrating Unix,Linux.md",
     "images/{FD0904D0-2C8A-496D-84FD-CCDC971A61D0}.png",
-    "images/{A2044D4A-70AD-40AA-ABFB-9E052F58535C}.png",
-    "images/{7C079107-7541-4B02-9720-333B2A617117}.png",
     "Penetration_Tester/00000_CORE/Shell&Payloads",
     "Penetration_Tester/00000_CORE/File_Transfers/DetectOrBeDetected",
     "Penetration_Tester/00000_CORE/File_Transfers",
     "Penetration_Tester/00000_CORE/File_Transfer",
-    "Penetration_Tester/00000_CORE/Vulnerability_Assessment/OpenVAS",
     "Untitled.canvas"
   ]
 }
