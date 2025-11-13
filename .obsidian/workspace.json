@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penetration_Tester/00000_CORE/Extracting_Passwords_from_windows/Attacking SAM,SYSTEM and Security.md",
+                "file": "Penetration_Tester/00000_CORE/Password_attacks/Password_Cracking_techniques/Cracking Protected Archives.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attacking SAM,SYSTEM and Security"
+              "title": "Cracking Protected Archives"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 590.5
   },
   "right": {
     "id": "073d291448c1cf56",
@@ -181,22 +181,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "767eadceb5a87b0a",
+  "active": "7f5b197a63b20ad5",
   "lastOpenFiles": [
-    "Penetration_Tester/00000_CORE/Extracting_Passwords_from_windows/Windows Authentication Process.md",
-    "Penetration_Tester/00000_CORE/Extracting_Passwords_from_windows/Attacking SAM,SYSTEM and Security.md",
+    "Penetration_Tester/00000_CORE/Password_attacks/Password_Cracking_techniques/Introduction to Password attacks.md",
+    "Penetration_Tester/00000_CORE/Password_attacks/Password_Cracking_techniques/Cracking Protected Archives.md",
+    "Penetration_Tester/00000_CORE/Password_attacks/Extracting_Passwords_from_windows/Attacking SAM,SYSTEM and Security.md",
+    "Penetration_Tester/00000_CORE/Password_attacks/Password_Cracking_techniques",
+    "Penetration_Tester/00000_CORE/Password_attacks/Extracting_Passwords_from_windows/Windows Authentication Process.md",
     "images/{E91E5E07-A6F2-408C-87C4-0614603A06BE}.png",
     "images/{DF0FF2BB-56AC-4E1D-8B47-463CCE62DF1F}.png",
-    "Penetration_Tester/00000_CORE/Remote_Password_attacks/Spraying, Stuffing, and Defaults.md",
-    "Penetration_Tester/00000_CORE/Extracting_Passwords_from_windows",
-    "Penetration_Tester/00000_CORE/Remote_Password_attacks/Network Services.md",
-    "Penetration_Tester/00000_CORE/Password_attacks/Cracking Protected Archives.md",
-    "Penetration_Tester/00000_CORE/Remote_Password_attacks",
-    "Penetration_Tester/00000_CORE/Password_attacks/Cracking Protected Files.md",
-    "Penetration_Tester/00000_CORE/Password_attacks/Writing Custom Wordlists and Rules.md",
-    "Penetration_Tester/00000_CORE/Password_attacks/Introduction to JohnTheRipper.md",
-    "Penetration_Tester/00000_CORE/Password_attacks/Introduction to Hashcat.md",
-    "Penetration_Tester/00000_CORE/Password_attacks/Introduction to Password attacks.md",
+    "Penetration_Tester/00000_CORE/Password_attacks/Remote_Password_attacks/Spraying, Stuffing, and Defaults.md",
+    "Penetration_Tester/00000_CORE/Password_attacks/Extracting_Passwords_from_windows",
+    "Penetration_Tester/00000_CORE/Password_attacks/Remote_Password_attacks/Network Services.md",
+    "Penetration_Tester/00000_CORE/Password_attacks/Remote_Password_attacks",
+    "Penetration_Tester/00000_CORE/Password_attacks/Password_Cracking_techniques/Cracking Protected Files.md",
+    "Penetration_Tester/00000_CORE/Password_attacks/Password_Cracking_techniques/Writing Custom Wordlists and Rules.md",
+    "Penetration_Tester/00000_CORE/Password_attacks/Password_Cracking_techniques/Introduction to JohnTheRipper.md",
+    "Penetration_Tester/00000_CORE/Password_attacks/Password_Cracking_techniques/Introduction to Hashcat.md",
     "Penetration_Tester/00000_CORE/Password_attacks",
     "Penetration_Tester/00000_CORE/Metasploit/Firewall,IDS Evasion.md",
     "Penetration_Tester/00000_CORE/Metasploit/MSFVenom.md",
@@ -215,7 +216,6 @@
     "Penetration_Tester/00000_CORE/Shell&Payloads/Infiltrating windows.md",
     "Penetration_Tester/00000_CORE/Shell&Payloads/Shell Jack Us In.md",
     "Penetration_Tester/00000_CORE/Shell&Payloads/Web Shells/Antak Webshell.md",
-    "Penetration_Tester/00000_CORE/Shell&Payloads/Web Shells/PHP Webshell.md",
     "images/{12EDAD9A-A33A-4DAE-A4C4-FD02549A85ED}.png",
     "images/{394804B3-952B-453B-B2D0-50DA5D1533F2}.png",
     "images/{A9D940E4-7E82-4C30-9830-709CC884B014}.png",
@@ -228,7 +228,6 @@
     "Penetration_Tester/00000_CORE/Shell&Payloads",
     "Penetration_Tester/00000_CORE/File_Transfers/DetectOrBeDetected",
     "Penetration_Tester/00000_CORE/File_Transfers",
-    "Penetration_Tester/00000_CORE/File_Transfer",
     "Untitled.canvas"
   ]
 }
